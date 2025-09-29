@@ -1,0 +1,152 @@
+ul.list-icon1 {
+  list-style: none;
+  text-align: left;
+  line-height: 2.3;
+  margin-right: 26px;
+  padding: 15px;
+  border-right: 1px solid;
+  display: inline-block;
+}
+.container {
+  max-width: 1400px;
+}
+ul.list-icon1 li {
+  font-family: "Poppins";
+}
+.vb1 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.vb12 {
+  display: flex !important;
+  align-items: center;
+  gap: 20px;
+}
+.sub-two h1 {
+  color: white;
+  font-size: 60px;
+}
+
+@media screen and (max-width: 990px) {
+  ul.list-icon1 {
+    border-right: none;
+    font-size: 14px;
+  }
+  .slider-type1 img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .sub-two h1 {
+    color: white;
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .slider-type1 img {
+    width: 100% !important;
+    height: 100% !important;
+    margin-right: -80px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .slider-type1 img {
+    width: 100% !important;
+    height: 100% !important;
+    margin-right: -76px;
+  }
+  .slider-type {
+    padding-right: 0px;
+  }
+  .sub-slide span {
+    color: white;
+    font-size: 10px;
+  }
+  .slider-type {
+    padding: 15px;
+  }
+  .sub-two h1 {
+    color: white;
+    font-size: 18px;
+  }
+  .sub-slide img {
+    width: 30px !important;
+    height: 25px !important;
+  }
+}
+@media screen and (max-width: 470px) {
+  .slider-type1 img {
+    width: 100% !important;
+    height: 100% !important;
+
+    margin-left: 0px !important;
+  }
+}
+
+.right-slider {
+  background: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-slide img {
+  width: 50px;
+  height: 46px;
+}
+
+.slider-type1 img {
+  width: 100%;
+  height: 100%;
+  /* margin-left: -30px;
+  margin-top: 11px; */
+}
+
+.sub-slide {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.sub-slide span {
+  color: white;
+}
+.sub-two h1 {
+  color: white;
+}
+.sub-three {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 21px;
+  padding-top: 25px;
+  color: white;
+}
+.sub-three span {
+  border-bottom: 1px solid;
+}
+.slider-type {
+  padding-left: 20px;
+}
+.dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+  margin-top: -22px;
+}
+svg.fgd {
+  color: rebeccapurple;
+}
+.fgd {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* margin-top: 10px; */
+}
+.bnd {
+  /* border-bottom: 1px solid grey; */
+  padding-top: 10px;
+  height: 100%;
+}

@@ -1,0 +1,246 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 15px;
+  border-bottom: 1px solid #80808045;
+}
+ul.list-icon {
+  list-style: none;
+}
+
+/* .nav-img h1 {
+  margin-left: 95px;
+} */
+.nav-links ul {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  gap: 35px;
+  margin-top: 15px;
+}
+.nav-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.container {
+  max-width: 1400px;
+  padding: 0px !important;
+}
+.sub-but {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* background: #dcdcdc73; */
+  padding: 8px 8px 8px 8px;
+  border-radius: 5px;
+  width: 50%;
+}
+/* .sub-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: black;
+  color: white;
+  padding: 15px;
+} */
+span.vb {
+  font-weight: 500;
+  margin-left: 8px;
+  border-bottom: 2px solid;
+}
+.action-bar {
+  margin-left: 285px;
+}
+.toogle {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .action-bar {
+    margin-left: 0px;
+  }
+  .nav-img h1 {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .moblileview {
+    display: flex !important;
+    align-items: center;
+    flex-direction: column;
+    /* margin-top: 10px; */
+    background: black;
+    color: white;
+    padding: 20px;
+    transition: all ease-in 0.5s;
+    /* position: relative; */
+  }
+
+  .mobile-links ul {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .mobile-links ul li {
+    border-bottom: 1px solid;
+    text-align: center;
+  }
+  .nav-links ul {
+    flex-direction: column;
+  }
+  .nav-bar {
+    flex-direction: column;
+  }
+
+  .nav-img.rt {
+    display: flex;
+  }
+  .nav-img {
+    /* display: none; */
+    /* margin: 0px; */
+  }
+  .sub-but1 {
+    gap: 10px;
+    align-self: center;
+    display: flex;
+    background: #dcdcdc73;
+    padding: 8px 8px 8px 8px;
+    border-radius: 5px;
+  }
+  .mobile-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .sub-action {
+    display: none;
+  }
+
+  .toogle {
+    display: flex !important;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-icons {
+    display: none;
+  }
+  ul.subdeopdown li {
+    position: static;
+    visibility: visible;
+    width: auto;
+    background: #f9f9f9;
+    opacity: 1;
+    margin: 0px !important;
+  }
+}
+
+.toogle {
+  position: absolute;
+  background: white;
+  padding: 5px;
+  /* display: none; */
+  top: 15px;
+  right: 37px;
+  width: 31px;
+}
+
+@media screen and (max-width: 600px) {
+  .sub-action {
+    flex-direction: column;
+    font-size: 15px;
+  }
+  .sub-but1 span {
+    font-size: 11px;
+  }
+}
+.moblileview {
+  /* position: relative;
+
+  left: -100%;
+  transition: all ease-in 0.5s; */
+  display: none;
+}
+.Disableview {
+  /* position: relative;
+  left: 0;
+  transition: all ease-in 0.5s; */
+  display: none;
+}
+.sec-nav {
+  position: fixed;
+  top: 0;
+  background: white;
+  width: 100%;
+  z-index: 20;
+}
+ul.subdeopdown {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  list-style: none;
+  background: white;
+  top: 15px;
+  padding: 0px;
+  text-align: center !important;
+  border: 1px solid black;
+  /* align-items: center; */
+  width: 110px;
+  height: auto;
+  transform: translateY(-320px);
+  transition: ease-in 0.7s;
+  z-index: 0;
+}
+li.drop:hover ul.subdeopdown {
+  transform: translateY(0px);
+}
+ul.subdeopdown li {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+li.drop {
+  position: relative;
+}
+
+.sub-but select {
+  width: 50%;
+}
+
+.down {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+.down p {
+  font-size: 13px;
+}
+.drops {
+  background: beige;
+  padding: 10px;
+  position: absolute;
+  transform: translateY(-320px);
+  transition: ease-in 0.7s;
+  z-index: 0;
+  margin-top: 10px;
+  /* transform: translate(-75px, -320px); */
+  margin-left: -165px;
+}
+.miniddrop {
+  position: relative;
+}
+.miniddrop:hover .drops {
+  transform: translateY(0px);
+}
